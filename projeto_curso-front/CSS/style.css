@@ -1,0 +1,76 @@
+html{
+    font-family: Helvetica;
+    background-color: rgb(57, 57, 57);
+}
+
+/* Determinando cor no container deixando uma bora cinza */
+.container{
+    max-width: 1100px;
+    background-color: rgb(176, 0, 0);
+    position: relative;
+    margin: 30px auto;
+    padding: 20px 50px;
+}
+
+/* Centralizando e estilizando cabeçalho */
+.header{
+    text-align: center;
+    margin-top: 1px;
+}
+
+/* Colocando em negrito palavras chaves */
+.bold{
+    font-weight: bold;
+}
+
+/* Justificando  */
+.main-paragraph{
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilizando e posicionando a imagem */
+.featured-image{
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width:auto;
+}
+
+/* Definindo o tamanho das imagens */
+img{
+    width: 400px;
+}
+
+/* Estilizando e posicionando a segunda imagem */
+.img-bold{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+/* Justificando texto */
+.biography-container{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid #5b5b5b;
+}
+
+/* Centralizando títulos */
+h2{
+    text-align: center;
+}
+
+/* Moldando box model da lista  */
+ul{
+    margin-bottom: 50px;
+    padding: 20px;
+    border-bottom: 1px solid #5b5b5b;
+}
